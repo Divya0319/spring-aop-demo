@@ -17,9 +17,9 @@ public class CricketCoach implements Coach {
 //	}
 	
 	// define  a default constructor
-	public CricketCoach() {
-		System.out.println(">>CricketCoach:  inside default constructor");	
-	}
+//	public CricketCoach() {
+//		System.out.println(">>CricketCoach:  inside default constructor");	
+//	}
 	
 
 	@Override
