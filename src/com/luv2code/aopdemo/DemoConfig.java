@@ -1,4 +1,4 @@
-package com.springlearning.springdemo;
+package com.luv2code.aopdemo;
 
 import java.util.logging.ConsoleHandler;
 import java.util.logging.Level;

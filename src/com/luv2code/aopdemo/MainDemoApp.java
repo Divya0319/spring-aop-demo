@@ -4,7 +4,6 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 import com.luv2code.aopdemo.dao.AccountDAO;
 import com.luv2code.aopdemo.dao.MembershipDAO;
-import com.springlearning.springdemo.DemoConfig;
 
 public class MainDemoApp {
 
@@ -23,7 +22,7 @@ public class MainDemoApp {
 		
 		// call the business method
 		Account myAccount = new Account();
-		theAccountDAO.addAccount(myAccount);
+		theAccountDAO.addAccount(myAccount, true);
 		
 		//call the membership business method
 		theMembershipDAO.addSillyMember();
