@@ -15,16 +15,15 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.context.annotation.PropertySource;
 
 @Configuration
-@PropertySource("classpath:mylogger.properties")
 @EnableAspectJAutoProxy
 @ComponentScan("com.luv2code.aopdemo")
 public class DemoConfig {
 	
 
-		@Value("${root.logger.level}")
+		@Value("FINE")
 		private String rootLoggerLevel;
 		
-		@Value("${printed.logger.level}")
+		@Value("FINE")
 		private String printedLoggerLevel;
 
 		public void setRootLoggerLevel(String rootLoggerLevel) {
